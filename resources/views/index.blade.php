@@ -7,6 +7,18 @@
     <title>ShopTea&Milk</title>
 </head>
 <body>
-    <h1>Trà sữa nè hihihehe</h1>
+<div class="wrapper">
+        <?php
+            include("pages/header.php");
+            include("pages/menu.php");
+            include("pages/main.php");
+            include("pages/footer.php");
+        ?>
+
+        
+        
+        
+        
+    </div>
 </body>
 </html>
