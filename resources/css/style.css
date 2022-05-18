@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0.auto;
+}
+.header{
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid #ff80ff;
+    height: 250px;
+    width: 100%;
+    background: #ff0080;
+}
+.menu{
+    border: 1px solid #1aff8c;
+    height: 50px;
+    width: 100%;
+    background: #e6cf00;
+}
+ul.list_menu {
+    padding: 0;
+     margin: 0; 
+    width: 50%;
+    border: 1px;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 36px;
+}
+ul.list_menu li:hover {
+    background: aquamarine;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+ul.list_menu li {
+    float: left;
+    margin: 6px;
+    padding: 1px;
+}
+#main{
+    border: 1px solid #00ff80 ;
+    height: 400px;
+    width: auto;
+} 
+.sidebar{
+    border: 1px solid #000066 ;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: #00b7ff8b;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+     margin: 0; 
+    width: 100%;
+    border: 1px;
+    list-style: none;
+    line-height: 36px;
+}
+ul.list_sidebar li:hover {
+    background: bisque;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    display: block;
+}
+ul.list_sidebar li {
+    margin: 6px;
+    padding: 1px;
+}
+.maincontent{
+    border: 1px solid #ff0000 ;
+    height: auto;
+    width: 69%;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li {
+    width: 16%;
+    border: 1px dashed #000;
+    margin: 1px;
+    float: left;
+    background: antiquewhite;
+    height: 177px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 95%;
+}
+p.price_product {
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer {
+    border: 1px solid #000;
+    height: 150px;
+    width: 100%;
+    background: antiquewhite;
+}
+p.footer_coppyright {
+    text-align: center;
+    color: black;
+}
+.clear{
+    clear: both;
+}
